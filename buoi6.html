@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function in_Xinchao(){
+            console.log("Đại học Sư phạm TPHCM xin chào - Giảm giá 10%")
+            console.log("Giảm giá 10% các khóa học tiếng hàn")
+        }
+        function in_BCC7 (){
+            console.log ("7.1=7")
+            console.log ("7.2=14")
+            console.log ("7.3=21")
+            console.log ("...")
+
+            console.log ("7.10=70")
+        }
+        //hàm không có tham số 
+        function thongTinHinhVuong(canh){
+            console.log("hình vuông có cạnh ="+canh)
+        }        
+        //hàm có 1 tham số
+        function thongTinHinhChuNhat(dai,rong){
+            console.log("HCN có chiều dài ="+dai+" và chiều rộng ="+rong)
+        }
+        //hàm có 2 tham số
+        function thongTinHinhChuNhat(dai,rong){
+            console.log("HCN có chiều dài ="+dai+" và chiều rộng ="+rong)
+        
+        }
+        function mieuTaME(hinhAnh,dang){
+            console.log(`Tóc mẹ bạc màu ${hinhAnh} phủ kín đôi vai ${dang}`)
+    
+        }
+        //hàm tính toán tự định nghĩa: return
+        function tong (a,b){
+            return a+b
+        }
+        function tich(a,b,c){
+            return a*b*c
+        }
+        function thuong(a,b){
+            return a/b
+        }
+        //Viết hàm tính chu vi và diện tích hình chữ nhật 
+        function tinhChuViHCN(dai,rong){
+            return (dai+rong)*2
+        }
+        function tinhDienTichhHCN (dai,rong){
+            return (dai*rong)
+        }
+        // Diện tích hình tròn
+        const pi=3.14
+        function tinhDienTichHT (pi,r){
+            return (pi*r^2)
+        }
+        
+        in_Xinchao()
+        in_BCC7()
+        thongTinHinhChuNhat(3,4)
+        thongTinHinhChuNhat(7,3)
+        thongTinHinhVuong(5)
+        mieuTaME("sương","còng")
+        mieuTaME("mây","gầy")
+        console.log(Math.max(2,3,4))
+        console.log(Math.round(4.9))
+        console.log(Math.pow(2,3))
+        alert(Math.pow(2,3))
+        console.log(tong(2,3,4))
+        console.log(tich(2,3,4))
+        console.log(thuong(4,2))
+        console.log (`chu vi hình chữ nhật là: ${tinhChuViHCN (3,4)}`)
+        console.log (`diện tích hình chữ nhật là: ${tinhDienTichHCN(3,4)}`)
+        console.log (`diện tích hình trong là: ${tinhDienTichHT(3,4)}`)
+    </script>
+</body>
+</html>
