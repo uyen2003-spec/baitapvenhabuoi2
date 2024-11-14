@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .contain{
+            border:1px solid green;
+            height: 600px;
+            display:flex;
+            justify-content: center; /*canh giữa so với content/ theo chiều ngang*/
+            justify-content: space-around;/* dàn chính giữa có chừa lề*/
+            justify-content: space-between;/* dàn chính giữa ko chừa lề*/
+            justify-content: flex-end;/* dàn sát bên phải*/
+            justify-content: flex-start;/* dàn sát bên phải*/
+
+            align-items: center;/* canh giữa theo chiều dọc*/
+            align-items:flex-start;/*dàn lên trên */
+            align-items: flex-end;/*dàn xuống dưới*/
+        }
+        .contain .box{
+            border: 1px solid aqua;
+            width: 200px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="box">box</div>
+        <div class="box">
+            box
+        </div>
+        <div class="box">
+            box
+        </div>
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
